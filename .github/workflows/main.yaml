@@ -24,7 +24,7 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t sikanderali/cartservice:latest .
+          docker build -t sikanderali/cartservice:latest ./src/
 
       - name: Push Docker Image
         run: |
